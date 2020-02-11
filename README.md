@@ -4,6 +4,20 @@ using Egohands Dataset: http://vision.soic.indiana.edu/projects/egohands/
 4800 images including 15000 hand segmentations were processed in order to enable one to create a efficient general-purpose hand detector.
 This detector is used to play the game Inside: https://www.epicgames.com/store/pl/download/inside/home
 
+## Features
+
+It detects a hand!
+
+![showcase gif](imgs/mask_gif.gif)
+
+What is more, it detects multiple hands!
+
+![showcase gif](imgs/mask_gif_2_hands.gif)
+
+You may have already guessed that, but it also detects a part of a hand!
+
+![showcase gif](imgs/mask_gif_hidden.gif)
+
 ## Prerequisites
 For the project to work, you'd need modules:
 Pillow, Pytorch, Opencv-python, sklearn, pynput, itertools, collections, pickle and cocoAPI
